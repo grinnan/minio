@@ -29,12 +29,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/amztime"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/handlers"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/grinnan/minio/internal/amztime"
+	"github.com/grinnan/minio/internal/crypto"
+	"github.com/grinnan/minio/internal/handlers"
+	"github.com/grinnan/minio/internal/hash"
+	xhttp "github.com/grinnan/minio/internal/http"
+	"github.com/grinnan/minio/internal/logger"
 	"github.com/minio/pkg/v2/policy"
 	xxml "github.com/minio/xxml"
 )
